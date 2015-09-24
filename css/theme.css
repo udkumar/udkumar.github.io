@@ -8,7 +8,7 @@ body{
 .dp-box{
 	background: #ddd;
 	margin-top: -75px;
-	width: 220px;
+	width: 140px;
 	padding: 10px;
 	border-radius: 50%;
 	float:left;
@@ -249,7 +249,7 @@ body{
 	.intro h1{
 		font-size:150%
 	}
-	
+
 }
 
 @media (max-width: 600px) {
@@ -257,9 +257,9 @@ body{
 	.intro h1{
 		font-size:150%
 	}
-	
+
 }
-	
+
 
 @media (max-width: 767px) {
 
