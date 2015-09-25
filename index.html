@@ -21,6 +21,19 @@
     <![endif]-->
   </head>
   <body>
+
+  <script>
+	var refTagger = {
+		settings: {
+			bibleVersion: "ESV"
+		}
+	};
+	(function(d, t) {
+		var g = d.createElement(t), s = d.getElementsByTagName(t)[0];
+		g.src = "//api.reftagger.com/v2/RefTagger.js";
+		s.parentNode.insertBefore(g, s);
+	}(document, "script"));
+</script>
 	<div class="container">
 
 		<div class="row">
@@ -31,6 +44,7 @@
 					</div>
 					<div class="intro">
 						<h1><b>Hello,</b> I am John Doe</h1>
+						<p> Eph 2:8-9</p>
 					</div>
 				</div>
 			</div>
