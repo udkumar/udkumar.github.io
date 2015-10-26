@@ -3,7 +3,7 @@ body{
 	font-family: Roboto Slab, serif;
 }
 .container {
-	margin-top: 80px;
+	margin-top: 40px;
 }
 .dp-box{
 	background: #ddd;
@@ -18,7 +18,7 @@ body{
 	border-radius: 100px;
 }
 .intro{
-	margin-left:250px;
+	margin-left:200px;
 }
 
 .well{
@@ -303,4 +303,9 @@ body{
             left: -14px;
             right: auto;
         }
+}
+
+
+.page-link a {
+    text-decoration: none;
 }
