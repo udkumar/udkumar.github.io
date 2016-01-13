@@ -1,18 +1,23 @@
-
 <!DOCTYPE html>
-<meta charset="utf-8">
-<style>
-  #wait {
-    padding: 10px;
-    position: absolute;
-  }
-  canvas {
-    position: relative;
-  }
-</style>
-
-  <div id="wait">Generating maze; please wait…</div>
-  <canvas width="960" height="500"></canvas>
+<html>
+<head>
+  <meta charset="utf-8">
+  <style>
+    #wait {
+      padding: 10px;
+      position: absolute;
+    }
+    canvas {
+      position: relative;
+      width: 100%;
+      height: 30%;
+    }
+  </style>
+</head>
+  <body>
+    <div id="wait">Generating maze; please wait…</div>
+    <canvas></canvas>
+  </body>
 
 
 <script src="http://d3js.org/d3.v3.min.js"></script>
@@ -93,3 +98,4 @@ worker.addEventListener("message", function(event) {
 });
 
 </script>
+</html>
