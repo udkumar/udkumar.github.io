@@ -7,10 +7,6 @@
       padding: 10px;
       position: absolute;
     }
-    .canvas-size{
-      height: 30%;
-      width: 100%;
-    }
     canvas {
       position: relative;
       width: 100%;
@@ -28,7 +24,7 @@
 <script src="cubehelix.min.js"></script>
 <script>
 
-var canvas = d3.select("body"),
+var canvas = d3.select("canvas"),
     context = canvas.node().getContext("2d"),
     width = canvas.property("width"),
     height = canvas.property("height");
