@@ -88,7 +88,7 @@
 	var width = Math.max(955, innerWidth),
 	    height = Math.max(150, 100);
 
-	var canvas = d3.select(".container").append("canvas")
+	var canvas = d3.select(".container").append("svg:svg")
     .attr("width", width)
     .attr("height", height);
 
@@ -185,64 +185,63 @@
 					<h3 class="red">#Experience</h3>
 					<div class="panel-group" id="accordion">
 						<div class="panel panel-default">
-						<div class="panel-heading">
-						  <h4 class="panel-title">
-							<a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" style="text-decoration: none;">
-							  Global South Service <small class="text-muted"><i class="fa fa-time"></i>(2015 Sep - Present)</small>
-							</a>
-						  </h4>
+							<div class="panel-heading">
+							  <h4 class="panel-title">
+								<a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" style="text-decoration: none;">
+								  Global South Service <small class="text-muted"><i class="fa fa-time"></i>(2015 Sep - Present)</small>
+								</a>
+							  </h4>
+							</div>
+							<div id="collapseOne" class="panel-collapse collapse in">
+							  <div class="panel-body">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, non, dolorem, cumque distinctio magni quam expedita velit laborum sunt amet facere tempora ut fuga aliquam ad asperiores voluptatem dolorum! Quasi. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, non, dolorem, cumque distinctio magni quam expedita velit laborum sunt amet facere tempora ut fuga aliquam ad asperiores voluptatem dolorum! Quasi.
+							  </div>
+							</div>
 						</div>
-						<div id="collapseOne" class="panel-collapse collapse in">
-						  <div class="panel-body">
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, non, dolorem, cumque distinctio magni quam expedita velit laborum sunt amet facere tempora ut fuga aliquam ad asperiores voluptatem dolorum! Quasi. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, non, dolorem, cumque distinctio magni quam expedita velit laborum sunt amet facere tempora ut fuga aliquam ad asperiores voluptatem dolorum! Quasi.
-						  </div>
-						</div>
+					  <div class="panel panel-default">
+							<div class="panel-heading">
+							  <h4 class="panel-title">
+								<a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" style="text-decoration: none;">
+								  Enbake Consulting <small class="text-muted"><i class="fa fa-time"></i>(2014 July - 2015 Sep)</small>
+								</a>
+							  </h4>
+							</div>
+							<div id="collapseTwo" class="panel-collapse collapse">
+							  <div class="panel-body">
+								Enbake make me one Man Army just because i have putted my all affort
+							  </div>
+							</div>
 					  </div>
 					  <div class="panel panel-default">
-						<div class="panel-heading">
-						  <h4 class="panel-title">
-							<a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" style="text-decoration: none;">
-							  Enbake Consulting <small class="text-muted"><i class="fa fa-time"></i>(2014 July - 2015 Sep)</small>
-							</a>
-						  </h4>
-						</div>
-						<div id="collapseTwo" class="panel-collapse collapse">
-						  <div class="panel-body">
-							Enbake make me one Man Army just because i have putted my all affort
-						  </div>
-						</div>
+							<div class="panel-heading">
+							  <h4 class="panel-title">
+								<a data-toggle="collapse" data-parent="#accordion" href="#collapseThree" style="text-decoration: none;">
+								  Freelancer <small class="text-muted"><i class="fa fa-time"></i> (2013 july - 2014 july)</small>
+								</a>
+							  </h4>
+							</div>
+							<div id="collapseThree" class="panel-collapse collapse">
+							  <div class="panel-body">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, non, dolorem, cumque distinctio magni quam expedita velit laborum sunt amet facere tempora ut fuga aliquam ad asperiores voluptatem dolorum! Quasi. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, non, dolorem, cumque distinctio magni quam expedita velit laborum sunt amet facere tempora ut fuga aliquam ad asperiores voluptatem dolorum! Quasi. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, non, dolorem, cumque distinctio magni quam expedita velit laborum sunt amet facere tempora ut fuga aliquam ad asperiores voluptatem dolorum! Quasi. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, non, dolorem, cumque distinctio magni quam expedita velit laborum sunt amet facere tempora ut fuga aliquam ad asperiores voluptatem dolorum! Quasi.
+							  </div>
+							</div>
 					  </div>
 					  <div class="panel panel-default">
-						<div class="panel-heading">
-						  <h4 class="panel-title">
-							<a data-toggle="collapse" data-parent="#accordion" href="#collapseThree" style="text-decoration: none;">
-							  Freelancer <small class="text-muted"><i class="fa fa-time"></i> (2013 july - 2014 july)</small>
-							</a>
-						  </h4>
-						</div>
-						<div id="collapseThree" class="panel-collapse collapse">
-						  <div class="panel-body">
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, non, dolorem, cumque distinctio magni quam expedita velit laborum sunt amet facere tempora ut fuga aliquam ad asperiores voluptatem dolorum! Quasi. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, non, dolorem, cumque distinctio magni quam expedita velit laborum sunt amet facere tempora ut fuga aliquam ad asperiores voluptatem dolorum! Quasi. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, non, dolorem, cumque distinctio magni quam expedita velit laborum sunt amet facere tempora ut fuga aliquam ad asperiores voluptatem dolorum! Quasi. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, non, dolorem, cumque distinctio magni quam expedita velit laborum sunt amet facere tempora ut fuga aliquam ad asperiores voluptatem dolorum! Quasi.
-						  </div>
-						</div>
-					  </div>
-					  <div class="panel panel-default">
-						<div class="panel-heading">
-						  <h4 class="panel-title">
-							<a data-toggle="collapse" data-parent="#accordion" href="#collapseFour" style="text-decoration: none;">
-							  PTC Inc. "Windchill" <small class="text-muted"><i class="fa fa-time"></i>(2012 june - 2013 june)</small>
-							</a>
-							<h4 class="green" style="font-family: Shadows Into Light Two, cursive;">#Internship</h4>
-						  </h4>
-						</div>
-						<div id="collapseFour" class="panel-collapse collapse">
-						  <div class="panel-body">
-								<p><small class="text-muted">Intern as an Associate QA in Performance testing, Pune (India) / June 2012 - June 2013</small></p>
-
-Here i was able to know the value of second in Application. Thanks to <span class="label label-primary">Mr. Sanjay Jain</span> who guided me to do lots of things and his team :) . Thanks to PTC Inc.......
-<p>Here i have worked on Windchill.</p>
-						  </div>
-						</div>
+							<div class="panel-heading">
+							  <h4 class="panel-title">
+								<a data-toggle="collapse" data-parent="#accordion" href="#collapseFour" style="text-decoration: none;">
+								  PTC Inc. "Windchill" <small class="text-muted"><i class="fa fa-time"></i>(2012 june - 2013 june)</small>
+								</a>
+								<h4 class="green" style="font-family: Shadows Into Light Two, cursive;">#Internship</h4>
+							  </h4>
+							</div>
+							<div id="collapseFour" class="panel-collapse collapse">
+							  <div class="panel-body">
+									<p><small class="text-muted">Intern as an Associate QA in Performance testing, Pune (India) / June 2012 - June 2013</small></p>
+	Here i was able to know the value of second in Application. Thanks to <span class="label label-primary">Mr. Sanjay Jain</span> who guided me to do lots of things and his team :) . Thanks to PTC Inc.......
+	<p>Here i have worked on Windchill.</p>
+							  </div>
+							</div>
 					  </div>
 					</div>
 				</div>
