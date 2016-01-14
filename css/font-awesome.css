@@ -11,6 +11,8 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face{font-family:'fonarto_regular';src:url('/fonts/fonarto.regular.ttf');}
+
 .fa {
   display: inline-block;
   font-family: FontAwesome;
