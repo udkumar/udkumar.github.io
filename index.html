@@ -73,6 +73,9 @@
 	  d3.event.preventDefault();
 	}
 
+	</script>
+	<script>
+
 	//randome s creation
 	var δτ = 0.003,
 	    ρ = 28,
@@ -81,6 +84,13 @@
 	    x0 = .5,
 	    y0 = .5,
 	    z0 = 10;
+
+	var width = Math.max(955, innerWidth),
+	    height = Math.max(150, 100);
+
+	var canvas = d3.select(".container").append("canvas")
+    .attr("width", width)
+    .attr("height", height);
 
 	var color = d3.scale.linear()
 	  .domain([0, 20, 30, 45])
@@ -94,7 +104,7 @@
 	context.scale(12, 8);
 	context.lineWidth = .25;
 
-	d3.select("canvas").on("mousemove", function() {
+	d3.select(".container").on("mousemove", function() {
 	  var m = d3.mouse(canvas.node());
 	  x0 = (m[0] - width / 2) / 12;
 	  y0 = (m[1] - height / 2) / 8;
@@ -129,11 +139,6 @@
 	  context.fillRect(0, 0, width, height);
 	  context.restore();
 	});
-
-
-	</script>
-	<script>
-
 
 	</script>
 	<div class="container">
