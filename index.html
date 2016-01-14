@@ -88,7 +88,7 @@
 	var width = Math.max(955, innerWidth),
 	    height = Math.max(150, 100);
 
-	var canvas = d3.select(".container").append("svg:svg")
+	var canvas = d3.select(".container").append("svg")
     .attr("width", width)
     .attr("height", height);
 
@@ -141,6 +141,32 @@
 	});
 
 	</script>
+	<script language="javascript">
+		document.onmousedown=disableclick;
+		status="Hey! Please do you own......";
+		function disableclick(event)
+		{
+		  if(event.button==2)
+		   {
+		     alert(status);
+		     return false;
+		   }
+		}
+
+		document.onkeydown = function(e) {
+      if (e.ctrlKey &&
+          (e.keyCode === 67 ||
+           e.keyCode === 86 ||
+           e.keyCode === 85 ||
+           e.keyCode === 117)) {
+          alert(status);
+          return false;
+      } else {
+          return true;
+      }
+		};
+	</script>
+
 	<div class="container">
 		<div class="row">
 			<div class="col-xs-12 ">
