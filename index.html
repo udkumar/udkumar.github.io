@@ -104,7 +104,7 @@
 	context.scale(12, 8);
 	context.lineWidth = .25;
 
-	d3.select(".container").on("mousemove", function() {
+	d3.select("canvas").on("mousemove", function() {
 	  var m = d3.mouse(canvas.node());
 	  x0 = (m[0] - width / 2) / 12;
 	  y0 = (m[1] - height / 2) / 8;
